@@ -15,8 +15,7 @@ export const Header = () => {
           justifyContent: "space-evenly",
           backgroundColor: "black",
           height: "5vw",
-          alignItems: "center",
-          borderRadius: "99px",
+          alignItems: "center"
         }}
       >
         <a

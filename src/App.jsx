@@ -6,7 +6,6 @@ import { Header } from "./components/Header/Header.jsx";
 function App() {
   const [food, setFood] = useState([]);
   const [drink, setDrink] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchJson("/dataMakanan.json")
