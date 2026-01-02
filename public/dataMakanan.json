@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nama": "Ayam Serundeng",
+    "harga": "25000",
+    "image": "/images/ayamSerundeng.jpeg"
+  },
+  {
+    "id": "2",
+    "nama": "Pepes Ikan",
+    "harga": "15000",
+    "image": "/images/pepesIkan.jpeg"
+  },
+  {
+    "id": "3",
+    "nama": "Bawal Rica-rica",
+    "harga": "50000",
+    "image": "/images/bawalRicaRica.jpeg"
+  },
+  {
+    "id": "4",
+    "nama": "Sup Buntut",
+    "harga": "35000",
+    "image": "/images/sopBuntut.jpeg"
+  },
+  {
+    "id": "5",
+    "nama": "Pecel Lele",
+    "harga": "7000",
+    "image": "/images/pecelLele.jpeg"
+  }
+]

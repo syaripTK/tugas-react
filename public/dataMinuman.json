@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "nama": "Es Teh Manis",
+    "harga": "5000",
+    "image": "/images/esTehManis.jpeg"
+  },
+  { "id": "2", "nama": "Es Doger", "harga": "7000", "image": "/images/esDoger.jpeg" },
+  {
+    "id": "3",
+    "nama": "Expresso Dingin",
+    "harga": "12000",
+    "image": "/images/expressoIce.jpeg"
+  },
+  {
+    "id": "4",
+    "nama": "Machalatte",
+    "harga": "15000",
+    "image": "/images/machalatte.jpeg"
+  }
+]
