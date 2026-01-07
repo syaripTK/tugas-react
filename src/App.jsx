@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css"
 import { Footer } from "./components/Footer/Footer";
 import { fetchJson } from "./utils/fetchJSON.js";
 import { Header } from "./components/Header/Header.jsx";
@@ -23,8 +24,8 @@ function App() {
   return (
     <>
       <Header />
-      <h2 style={{ textAlign: "center", marginTop: "50px" }}>Menu Makanan</h2>
-      <div style={{ display: "flex", gap: "1rem" }}>
+      <h2 className="head-banner">Menu Makanan</h2>
+      <div className="card-wrapper">
         {food.map((item) => (
           <Card
             key={item.id}
@@ -36,8 +37,8 @@ function App() {
         ))}
       </div>
 
-      <h2 style={{ textAlign: "center" }}>Menu Minuman</h2>
-      <div style={{ display: "flex", gap: "1rem" }}>
+      <h2 className="head-banner">Menu Minuman</h2>
+      <div className="card-wrapper">
         {drink.map((e) => (
           <Card src={e.image} alt={e.nama} namaMenu={e.nama} price={e.harga} />
         ))}

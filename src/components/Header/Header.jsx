@@ -23,8 +23,8 @@ export const Header = () => {
         </ul>
         <div className="nav-right">
           <button >Login</button>
-          <span>🔍</span>
-          <span>🛒</span>
+          <span><i class="fa-brands fa-searchengin"></i></span>
+          <span><i class="fa-solid fa-cart-arrow-down"></i></span>
         </div>
       </div>
     </nav>

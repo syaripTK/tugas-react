@@ -1,0 +1,24 @@
+.head-banner {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 60px 0 24px;
+  color: #1f2937;
+  position: relative;
+}
+
+.head-banner::after {
+  content: "";
+  width: 250px;
+  height: 4px;
+  background: linear-gradient(90deg, #6d28d9, #9333ea);
+  display: block;
+  margin-top: 10px;
+  border-radius: 999px;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
