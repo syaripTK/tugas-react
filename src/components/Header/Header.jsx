@@ -1,41 +1,30 @@
+import "./Header.css";
+
 export const Header = () => {
   return (
-    <nav
-      style={{
-        position: "sticky",
-        top: "0",
-        zIndex: "1000",
-        boxShadow: "0 2px 10px rgba(42, 71, 97, 0.1)",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          gap: "5px",
-          justifyContent: "space-evenly",
-          backgroundColor: "black",
-          height: "5vw",
-          alignItems: "center"
-        }}
-      >
-        <a
-          href="#"
-          style={{ textDecoration: "none", color: "white", fontSize: "2em" }}
-        >
-          Navbar
+    <nav className="navbar">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          Saung Batur
         </a>
-        <div>
-          <div style={{ display: "flex", gap: "5px" }}>
-            <a style={{ textDecoration: "none", color: "white" }} href="#">
-              Home
-            </a>
-            <a style={{ textDecoration: "none", color: "white" }} href="#">
-              About
-            </a>
-            <a style={{ textDecoration: "none", color: "white" }} href="#">
-              Features
-            </a>
-          </div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">About</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">Blog</a>
+          </li>
+          <li className="nav-item">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <div className="nav-right">
+          <button >Login</button>
+          <span>🔍</span>
+          <span>🛒</span>
         </div>
       </div>
     </nav>

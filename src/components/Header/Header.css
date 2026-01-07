@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-nav{
+    display: flex;
+}
