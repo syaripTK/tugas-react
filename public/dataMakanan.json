@@ -28,5 +28,23 @@
     "nama": "Pecel Lele",
     "harga": "7000",
     "image": "/images/pecelLele.jpeg"
+  },
+  {
+    "id": "6",
+    "nama": "Sate Cumi-Cumi",
+    "harga": "73000",
+    "image": "/images/sate-cumi.jpeg"
+  },
+  {
+    "id": "7",
+    "nama": "Soup Kerang",
+    "harga": "15000",
+    "image": "/images/kerang-soup.jpeg"
+  },
+  {
+    "id": "8",
+    "nama": "Lobster Segar",
+    "harga": "35000",
+    "image": "/images/fresh-lobster.jpeg"
   }
 ]

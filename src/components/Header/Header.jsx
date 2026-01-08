@@ -1,6 +1,8 @@
 import "./Header.css";
+import { useState } from "react";
 
 export const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <nav className="navbar">
       <div className="container">
@@ -22,9 +24,22 @@ export const Header = () => {
           </li>
         </ul>
         <div className="nav-right">
-          <button >Login</button>
-          <span><i class="fa-brands fa-searchengin"></i></span>
-          <span><i class="fa-solid fa-cart-arrow-down"></i></span>
+          <button>Login</button>
+          <span>
+            <i class="fa-brands fa-searchengin"></i>
+          </span>
+          <span>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+          </span>
+        </div>
+
+        <div
+          className={`hamburger ${open ? "active" : ""}`}
+          onClick={() => setOpen(!open)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </nav>
