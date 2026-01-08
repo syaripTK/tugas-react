@@ -8,7 +8,7 @@ const Card = ({ key, src, alt, namaMenu, price }) => {
       </div>
       <div className="card-body">
         <h3 className="menu">{namaMenu}</h3>
-        <p className="price">{price}</p>
+        <p className="price"><span className="dollar">Rp.</span>{price}</p>
         <div className="card-footer">
           <button className="btn-menu">Order Now</button>
         </div>

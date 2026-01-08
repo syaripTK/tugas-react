@@ -11,7 +11,7 @@ export const Header = () => {
         </a>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a href="#">Home</a>
+            <a href="#" className="first-child">Home</a>
           </li>
           <li className="nav-item">
             <a href="#">About</a>
