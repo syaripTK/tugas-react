@@ -110,6 +110,10 @@
     padding: 4rem 5%;
   }
 
+  .btn-wrapper{
+    justify-content: center;
+  }
+
   .hero-right {
     order: -1;
   }

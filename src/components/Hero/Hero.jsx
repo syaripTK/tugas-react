@@ -6,7 +6,7 @@ export default function Hero({ source }) {
     <>
       <section className="content-wrapper">
         <div className="hero-left">
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Mulai Pengalaman Rasa</p>
           <h2>Sindang di Saung Batur</h2>
           <div className="btn-wrapper">
             <button className="hero-btn">Reservasi Sekarang</button>

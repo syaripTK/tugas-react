@@ -5,10 +5,10 @@
     "harga": "5000",
     "image": "/images/esTehManis.jpeg"
   },
-  { "id": "2", "nama": "Es Doger", "harga": "7000", "image": "/images/esDoger.jpeg" },
+  { "id": "2", "nama": "Doger Ice", "harga": "7000", "image": "/images/esDoger.jpeg" },
   {
     "id": "3",
-    "nama": "Expresso Dingin",
+    "nama": "Expresso Freeze",
     "harga": "12000",
     "image": "/images/expressoIce.jpeg"
   },
@@ -17,5 +17,17 @@
     "nama": "Machalatte",
     "harga": "15000",
     "image": "/images/machalatte.jpeg"
+  },
+  {
+    "id": "5",
+    "nama": "Coconut Machiatto",
+    "harga": "23000",
+    "image": "/images/machiatto.jpeg"
+  },
+  {
+    "id": "6",
+    "nama": "Ice Latte",
+    "harga": "15000",
+    "image": "/images/ice-latte.jpeg"
   }
 ]
