@@ -5,6 +5,7 @@ import { fetchJson } from "./utils/fetchJSON.js";
 import { Header } from "./components/Header/Header.jsx";
 import Card from "./components/Card/Card.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import Brand from "./components/Sections/Brand.jsx";
 
 function App() {
   const [food, setFood] = useState([]);
@@ -26,6 +27,7 @@ function App() {
     <>
       <Header />
       <Hero source="/images/hero-image.png"/>
+      <Brand />
       <h2 className="head-banner">Menu Makanan</h2>
       <div className="card-wrapper">
         {food.map((item) => (

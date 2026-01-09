@@ -1,0 +1,16 @@
+.container-brand{
+     background: linear-gradient(135deg, #6d28d9, #9f39ff);
+     padding: 15px 0 ;
+
+    }
+
+.container-brand ul{
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+    list-style: none;
+}
+
+.container-brand ul li{
+color: #fff;
+}
